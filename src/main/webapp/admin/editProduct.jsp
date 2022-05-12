@@ -27,8 +27,8 @@ try
 	{
 %>
 <form action="editProductAction.jsp" method="post">
-<div class="left-div">
 <input type="hidden" name="id" value="<%out.println(id); %>">
+<div class="left-div">
  <h3>Enter Name</h3>
  <input class ="input-style" type="text" name="name" value="<%=rs.getString(2)%>" required>
 <hr>

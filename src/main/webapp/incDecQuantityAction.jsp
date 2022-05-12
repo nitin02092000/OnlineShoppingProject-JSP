@@ -7,7 +7,7 @@ String incdec=request.getParameter("quantity");
 int price=0;
 int total=0;
 int quantity=0;
-int final_Total=0;
+int final_total=0;
 try
 {
 Connection con=ConnectionProvider.getCon();

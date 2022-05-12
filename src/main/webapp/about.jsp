@@ -10,26 +10,15 @@
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">About <i class="fa fa-address-book"></i></div>
 <div style="background-color: white; padding:35px; font-size: 30px;">
-BTech Days
+Go Grab
 <br>
-Hey everyone!!
+Hey Everyone!!
 <br>
-I make free programming tutorials for beginners.
-& PROJECT videos with source code.
-That include Java for beginners,c# (Dot net tutorial), JFrame,JDBC,Jsp,etc
+'SGSITS SPHERE' is an online shopping platform where you can find wide variety of clothes, footwear, watches and much more. Here you will get a huge discount on brands and an assurance of quality and original products. So what's stopping you? 'Go Grab' some for yourself and your people !!! 
 <br>
-We make videos of :-
-DBMS
-COMPUTER NETWORKING 
-BPM
-OS, etc
-So kindly subscribe our channel.
+Contact us at :- sgsitssphere.care@gmail.com
 <br>
-Contact us at :- btechdays.care@gmail.com
-<br>
-or
-<br>
-contact us at instagram :- btechdays
+Contact us at Instagram :- SgsitsSphere
 </div>
 
 </body>

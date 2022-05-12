@@ -18,7 +18,7 @@ try{
 		product_price=rs.getInt(4);
 		product_total=product_price;
 	}
-	ResultSet rs1=st.executeQuery("select * from cart where product_id="+product_id+" and email='"+email+"' and address is NULL");
+	ResultSet rs1=st.executeQuery("select * from cart where product_id='"+product_id+"' and email='"+email+"' and address is NULL");
 	while(rs1.next())
 	{
 		cart_total=rs1.getInt(5);

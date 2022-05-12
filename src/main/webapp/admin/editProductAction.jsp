@@ -13,7 +13,7 @@ try
  	st.executeUpdate("update product set name='"+name+"',category='"+category+"',price='"+price+"',active='"+active+"' where id='"+id+"'");
  	if(active.equals("No"))
  	{
- 		st.executeUpdate("delete from cart where product_id='"+id+"'");
+ 		st.executeUpdate("delete from cart where product_id='"+id+"' and address is NULL");
  		
  	}
  	response.sendRedirect("allProductEditProduct.jsp?msg=done");

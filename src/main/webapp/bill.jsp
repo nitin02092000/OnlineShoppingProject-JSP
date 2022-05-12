@@ -20,9 +20,10 @@ try
 	{
 		total=rs.getInt(1);
 	}
-	ResultSet rs2=st.executeQuery("select * from users inner join cart where cart.email='"+email+"' and cart.status='bill'");
+	ResultSet rs2=st.executeQuery("select * from users inner join cart on cart.email=users.email and cart.status='bill'");
 	while(rs2.next())
 	{
+			
 %>
 <h3>Online shopping Bill (BTech Days)</h3>
 <hr>
@@ -64,6 +65,7 @@ try
 	  sno=sno+1;
   %>
   <tr>
+  
     <td><%out.println(sno); %></td>
     <td><%=rs1.getString(17) %></td>
     <td><%=rs1.getString(18) %></td>

@@ -25,10 +25,10 @@ if("wrong".equals(msg))
 <form action="changeSecurityQuestionAction.jsp" method="post">
 <h3>Select Your New Security Question</h3>
  <select class="input-style" name="securityQuestion">
-<option value="What was your first car?">What was your first car?</option>
- <option value="What is the name of your first pet?">What is the name of your first pet?</option>
-  <option value="What elementary school did you attend?">What elementary school did you attend?</option>
-   <option value="What is the name of the town where you were born?">What is the name of the town where you were born?</option>
+<option value="Which was your first car?">Which was your first car?</option>
+    <option value="Which school you attended?">Which school you attended?</option>
+    <option value="What is name of the town where you were born?">What is name of the town where you were born?</option>
+    <option value="What is name of your first pet?">What is name of your first pet?</option>
 </select>
  <hr>
  <h3>Enter Your New Answer</h3>

@@ -12,11 +12,11 @@ try
     ps.setString(2, subject);
    ps.setString(3, body);
     ps.executeUpdate();
-    response.sendRedirect("messageUs.jsp?msgvalid");
+    response.sendRedirect("messageUs.jsp?msg=valid");
 }
 catch(Exception e)
 {
 	System.out.println(e);
-    response.sendRedirect("messageUs.jsp?msg-invalid");
+    response.sendRedirect("messageUs.jsp?msg=invalid");
     }
 %>

@@ -19,7 +19,7 @@ if("valid".equals(msg))
 <h3 style="text-align:center; color:yellow;">Message successfully sent. Our team will contact you soon!</h3>
 <%} %>
 <%
-if("valid".equals(msg))
+if("invalid".equals(msg))
 {
 %>
 <h3 style="text-align:center; ">Some thing Went Wrong! Try Again!</h3>

@@ -31,7 +31,7 @@ try
 	}
 %>
           <tr>
-          <th scope="col"><a href="mycart.jsp"><i class='fas fa-arrow-circle-left'> Back</i></a></th>
+          <th scope="col"><a href="myCart.jsp"><i class='fas fa-arrow-circle-left'> Back</i></a></th>
             <th scope="col" style="background-color: yellow;">Total: <i class="fa fa-inr"></i> <%out.println(total); %> </th>
           </tr>
         </thead>
@@ -56,7 +56,7 @@ try
            <td><%out.println(sno); %></td>
             <td><%=rs.getString(2)%></td>
             <td><%=rs.getString(3) %></td>
-            <td><i class="fa fa-inr"></i> ><%=rs.getString(4) %> </td>
+            <td><i class="fa fa-inr"></i> <%=rs.getString(4) %> </td>
             <td><%=rs.getString(8)%> </td>
             <td><i class="fa fa-inr"></i> <%=rs.getString(10) %></td>
             </tr>
@@ -85,7 +85,7 @@ try
 
 <div class="left-div">
 <h3>Enter State</h3>
- <input class="input-style" type="text" name="State"  value="<%=rs2.getString(9)%> " placeholder="Enter State" required>
+ <input class="input-style" type="text" name="state"  value="<%=rs2.getString(9)%> " placeholder="Enter State" required>
 
 </div>
 
